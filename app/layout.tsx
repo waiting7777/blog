@@ -1,7 +1,7 @@
 import '@/styles/globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { GlobalNav } from '@/ui/sidebar'
+import { Sidebar } from '@/ui/sidebar'
 import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] })
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <body className="bg-gray-1100 overflow-y-scroll bg-[url('/grid.svg')] pb-36">
-        <GlobalNav />
+        <Sidebar />
         <div className="lg:pl-72">
           {children}
         </div>

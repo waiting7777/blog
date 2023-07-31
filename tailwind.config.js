@@ -10,6 +10,9 @@ module.exports = {
     extend: {
       colors: {
         'gray-1100': 'rgb(10,10,11)',
+        red: {
+          main: "#862121"
+        },
       }
     },
   },
