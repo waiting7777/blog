@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import clsx from 'clsx'
 import { useSelectedLayoutSegment } from 'next/navigation';
+import { faBook } from '@fortawesome/free-solid-svg-icons'
 import Icons from './icons';
 
 type Item = {
@@ -16,6 +17,9 @@ const naveList: Item[] = [{
 }, {
   name: 'Projects',
   slug: 'projects'
+}, {
+  name: 'Posts',
+  slug: 'posts'
 }]
 
 export function Sidebar() {

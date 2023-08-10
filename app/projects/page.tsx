@@ -3,3 +3,5 @@ function Page() {
     <div>123</div>
   )
 }
+
+export default Page
