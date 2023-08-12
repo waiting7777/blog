@@ -27,10 +27,11 @@ function Grafana() {
       ],
     });
     faro.api.pushLog(['hello world']);
+    faro.api.pushError(new Error('open'));
   }, [])
 
   useEffect(() => {
-    faro.api.pushEvent(`pageview: ${pathname}`)
+    faro.api.pushEvent(`pageview`, { page: pathname }, pathname)
   }, [pathname]);
 
     return null
