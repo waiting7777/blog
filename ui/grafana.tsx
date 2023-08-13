@@ -27,7 +27,6 @@ function Grafana() {
       ],
     });
     faro.api.pushLog(['hello world']);
-    faro.api.pushError(new Error('open'));
   }, [])
 
   useEffect(() => {
