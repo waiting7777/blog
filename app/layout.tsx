@@ -3,7 +3,6 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { Sidebar } from '@/ui/sidebar'
 import { Analytics } from '@vercel/analytics/react';
-import Grafana from '@/ui/grafana';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,7 +24,6 @@ export default function RootLayout({
           {children}
         </div>
         <Analytics />
-        <Grafana />
       </body>
     </html>
   )
