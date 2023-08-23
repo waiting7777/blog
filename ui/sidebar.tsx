@@ -15,8 +15,8 @@ const naveList: Item[] = [{
   name: 'Home',
   slug: '/'
 }, {
-  name: 'Projects',
-  slug: 'projects'
+  name: 'About',
+  slug: 'about'
 }, {
   name: 'Posts',
   slug: 'posts'
