@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-start px-36 py-24 text-white">
+    <main className="flex min-h-screen flex-col items-start max-w-[48rem] mx-auto py-24 text-white">
       <div className='text-4xl'>
         Hello,<br/>I&apos;m <span className='text-teal-500'>Waiting7777</span>
       </div>
